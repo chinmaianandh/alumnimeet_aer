@@ -949,7 +949,7 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(127, 102, 255, 0.88);
+    background: rgba(58,175,169, 0.7);
 }
 
 .timer_container {
@@ -1295,11 +1295,11 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: fit-content;
+    height: fit-content;
     content: '';
     border: solid 1px #3aafa9;
-    background: rgba(127, 102, 255, 0.67);
+    background: rgba(58,175,169, 0.67);
     visibility: hidden;
     opacity: 0;
     -webkit-transition: all 400ms ease;
@@ -1570,4 +1570,86 @@ section {
 
 .owl-carousel.logos_slider .owl-item img {
     width: auto;
+}
+
+
+.sunder3223::before {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: 0;
+
+    left: 30%;
+    border-bottom: 5px solid teal;
+}
+.sunder3223::after {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: 0;
+
+    right: 30%;
+    border-bottom: 5px solid black;
+}
+.sunder_meet::before {
+    content: "";
+    position: absolute;
+    width: 33%;
+    height: 1px;
+    bottom: 0;
+
+    left: 17%;
+    border-bottom: 5px solid teal;
+}
+.sunder_meet::after {
+    content: "";
+    position: absolute;
+    width: 33%;
+    height: 1px;
+    bottom: 0;
+
+    right: 17%;
+    border-bottom: 5px solid black;
+}
+.sunder2332::before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    bottom: 0;
+
+    left: 20%;
+    border-bottom: 5px solid teal;
+}
+.sunder2332::after {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    bottom: 0;
+
+    right: 20%;
+    border-bottom: 5px solid black;
+}
+.sunder4114::before {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    bottom: 0;
+
+    left: 40%;
+    border-bottom: 5px solid teal;
+}
+.sunder4114::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    bottom: 0;
+
+    right: 40%;
+    border-bottom: 5px solid black;
 }
