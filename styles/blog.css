@@ -291,7 +291,7 @@ section
 }
 .button_2
 {
-	background: #7f66ff;
+	background: #3aafa9;
 }
 .button_3
 {
@@ -299,7 +299,7 @@ section
 }
 .button_4
 {
-	background: #7f66ff;
+	background: #3aafa9;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -318,7 +318,7 @@ section
 }
 .button_1::after
 {
-	background: #7f66ff;
+	background: #3aafa9;
 }
 .button_2::after
 {
@@ -409,7 +409,7 @@ section
 	width: calc(100% - 48px);
 	background: #0a2642;
 	z-index: 100;
-	border-bottom: solid 2px #7f66ff;
+	border-bottom: solid 2px #3aafa9;
 }
 .header_content
 {
@@ -442,7 +442,7 @@ section
 	font-size: 30px;
 	line-height: 0.75;
 	font-weight: 500;
-	color: #7f66ff;
+	color: #3aafa9;
 	text-transform: uppercase;
 }
 .logo a > span > span
@@ -489,7 +489,7 @@ section
 }
 .main_nav > ul > li.active.has_children > a::after
 {
-	color: #7f66ff;
+	color: #3aafa9;
 }
 .main_nav > ul > li:not(:last-of-type)
 {
@@ -506,7 +506,7 @@ section
 .main_nav > ul > li.active a,
 .main_nav > ul > li > a:hover::after
 {
-	color: #7f66ff;
+	color: #3aafa9;
 }
 .main_nav ul li > ul
 {
@@ -540,7 +540,7 @@ section
 }
 .main_nav ul li > ul > li a
 {
-	color: #7f66ff;
+	color: #3aafa9;
 }
 .main_nav ul li > ul > li a:hover
 {
@@ -551,7 +551,7 @@ section
 	position: absolute;
 	top: -20px;
 	left: 100%;
-	border-left: solid 3px #7f66ff;
+	border-left: solid 3px #3aafa9;
 }
 .main_nav > ul > li.has_children > ul li.has_children > a::after
 {
@@ -582,7 +582,7 @@ section
 {
 	height: 100%;
 	width: 200px;
-	background: #7f66ff;
+	background: #3aafa9;
 	text-align: center;
 }
 .header_link a
@@ -651,7 +651,7 @@ section
 }
 .social ul li:hover
 {
-	background: #7f66ff;
+	background: #3aafa9;
 }
 .social ul li a
 {
@@ -690,7 +690,7 @@ section
 }
 .log_reg ul li a:hover
 {
-	color: #7f66ff;
+	color: #3aafa9;
 }
 .hamburger
 {
@@ -710,7 +710,7 @@ section
 }
 .hamburger:hover i
 {
-	color: #7f66ff;
+	color: #3aafa9;
 }
 
 /*********************************
@@ -758,7 +758,7 @@ section
 }
 .menu_close:hover i
 {
-	color: #7f66ff;
+	color: #3aafa9;
 }
 .menu_content
 {
@@ -786,7 +786,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #7f66ff;
+	color: #3aafa9;
 }
 .menu_social
 {
@@ -835,7 +835,7 @@ section
 .breadcrumbs
 {
 	display: inline-block;
-	background: #7f66ff;
+	background: #3aafa9;
 	height: 38px;
 	padding-left: 23px;
 	padding-right: 25px;
@@ -903,7 +903,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 700;
-	color: #7f66ff;
+	color: #3aafa9;
 	text-transform: uppercase;
 }
 .blog_post_title
@@ -918,7 +918,7 @@ section
 }
 .blog_post_title h3 a:hover
 {
-	color: #7f66ff;
+	color: #3aafa9;
 }
 .blog_post_info
 {
@@ -1245,7 +1245,7 @@ section
 	height: 59px;
 	border: none;
 	outline: none;
-	background: #7f66ff;
+	background: #3aafa9;
 	border-bottom: solid 3px #ffffff;
 	cursor: pointer;
 	margin-top: 13px;
