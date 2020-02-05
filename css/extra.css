@@ -1,0 +1,179 @@
+/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
+.faq_area {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
+  .faq_area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.faq_area #accordion .card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: .25rem;
+  background: #fff !important;
+  border: 1px solid #E9E5EC;
+  border: 5px;
+  margin-bottom: 30px;
+  border: 1px solid #E9E5EC;
+}
+
+@media (max-width: 767px) {
+  /* line 54, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
+  .faq_area #accordion .card {
+    margin-bottom: 10px;
+  }
+}
+
+.blog_part .single-home-blog .card {
+  border: 0px solid transparent;
+  border-radius: 0px;
+  background-color: transparent;
+  position: relative;
+}
+
+.faq_area #accordion .card .card-header {
+  margin-bottom: 0;
+  background-color: #fff;
+  border-bottom: none;
+  padding: 14px 0 16px 14px;
+}
+
+.faq_area .btn-link.focus, .faq_area .btn-link:focus {
+  text-decoration: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+/* line 96, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
+.faq_area .btn-link:hover {
+  color: #0056b3;
+  text-decoration: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.faq_area #accordion .card .card-body {
+  padding: 0 0 40px 76px;
+}
+
+@media (max-width: 767px) {
+  /* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
+  .faq_area #accordion .card .card-body {
+    padding: 0 20px 10px 20px;
+    font-size: 12px;
+  }
+}
+
+/* line 48, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
+.blog_part .single-home-blog .card .card-body {
+  padding: 25px 10px 29px 40px;
+  background-color: #fff;
+  position: absolute;
+  left: 20px;
+  bottom: -140px;
+  box-shadow: -7.552px 9.326px 20px 0px rgba(1, 84, 85, 0.1);
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  /* line 48, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
+  .blog_part .single-home-blog .card .card-body {
+    padding: 15px;
+    left: 10px;
+    bottom: -140px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 48, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
+  .blog_part .single-home-blog .card .card-body {
+    padding: 15px;
+    left: 10px;
+    bottom: -140px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 48, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
+  .blog_part .single-home-blog .card .card-body {
+    padding: 20px;
+  }
+}
+
+a:focus,
+.button:focus, button:focus {
+  text-decoration: none;
+  outline: none;
+}
+a,
+button {
+  color: #131313;
+  outline: medium none;
+}
+.faq_area #accordion .card h5 button {
+  font-size: 22px;
+  font-weight: 400;
+  color: #1F1F1F;
+}
+@media (max-width: 767px) {
+  /* line 30, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
+  .faq_area #accordion .card h5 button {
+    font-size: 13px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 30, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
+  .faq_area #accordion .card h5 button {
+    font-size: 18px;
+  }
+}
+.footer .footer_top .footer_widget .newsletter_form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  background: #fff;
+  padding: 10px;
+  padding: 0 22px;
+  cursor: pointer;
+}
+.blog_right_sidebar .search_widget .input-group button {
+  background: #fff;
+  border-left: 0;
+  border: 1px solid #f0e9ff;
+  padding: 4px 15px;
+  border-left: 0;
+}
+.blog_right_sidebar .newsletter_widget .input-group button {
+  background: #fff;
+  border-left: 0;
+  border: 1px solid #f0e9ff;
+  padding: 4px 15px;
+  border-left: 0;
+}
